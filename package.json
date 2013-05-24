@@ -1,6 +1,6 @@
 {
     "name": "appserver",
-    "version": "0.2.0",
+    "version": "0.2.1",
 
     "dependencies": {
         "underscore": ">= 1.4.4",
@@ -13,6 +13,7 @@
         "glob": ">= 3.1.14",
         "uglify-js": ">= 2.2.5",
         "sqwish": ">= 0.2.1",
-        "streaming.io": "git+https://github.com/jsvennevid/streaming.io.git#v0.10"
+        "memcached": ">= 0.2.2",
+        "streaming.io": "git+https://github.com/jsvennevid/streaming.io.git#v0.1.1"
     }
 }
