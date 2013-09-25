@@ -1,9 +1,9 @@
 {
     "name": "appserver",
-    "version": "0.2.4",
+    "version": "0.2.5",
 
     "dependencies": {
-        "underscore": ">= 1.4.4",
+        "underscore": "== 1.4.4",
         "connect": ">= 2.3.3",
         "connect-redis": ">= 1.4.0",
         "cookie": ">= 0.0.3",
