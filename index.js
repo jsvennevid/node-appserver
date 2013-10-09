@@ -7,6 +7,7 @@ config.setModuleDefaults('appserver', {
     "production": false,
     "compress": false,
     "preload": false,
+    "logformat": "default",
     "session": {
         "key": "connect.sid",
         "secret": "SECRET",
