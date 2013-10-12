@@ -9,9 +9,16 @@ config.setModuleDefaults('appserver', {
     "preload": false,
     "logformat": "default",
     "session": {
+        "type": "memory",
+
         "key": "connect.sid",
         "secret": "SECRET",
-        "timeout": 48 * (60 * 60) * 1000
+        "timeout": 48 * (60 * 60) * 1000,
+
+        "redis": {
+            "host": "localhost",
+            "port": 6379
+        }
     },
     "streaming": {
         "registry": "local",
@@ -20,7 +27,7 @@ config.setModuleDefaults('appserver', {
         }
     },
     "memcached": {
-        host: ""
+        "host": ""
     }
 });
 
