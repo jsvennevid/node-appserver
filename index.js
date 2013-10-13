@@ -21,10 +21,17 @@ config.setModuleDefaults('appserver', {
         }
     },
     "streaming": {
-        "registry": "local",
-        "amqp": {
-            "url": ""
-        }
+        "registry": {
+            "type": "local",
+            "amqp": {
+                "url": ""
+            },
+            "redis": {
+                "host": "localhost",
+                "port": 6379,
+                "prefix": "registry:"
+            }
+        },
     },
     "memcached": {
         "host": ""
