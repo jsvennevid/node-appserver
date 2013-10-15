@@ -14,6 +14,7 @@ config.setModuleDefaults('appserver', {
         "key": "connect.sid",
         "client_key": "connect.cid",
         "secret": "SECRET",
+        "secure": false,
         "timeout": 48 * (60 * 60) * 1000,
 
         "redis": {
