@@ -12,6 +12,7 @@ config.setModuleDefaults('appserver', {
         "type": "memory",
 
         "key": "connect.sid",
+        "client_key": "connect.cid",
         "secret": "SECRET",
         "timeout": 48 * (60 * 60) * 1000,
 
