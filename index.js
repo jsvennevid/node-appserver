@@ -2,7 +2,8 @@ var config = require('config');
 config.setModuleDefaults('appserver', {
     "web": {
         "port": 8888,
-        "wsPort": 0
+        "wsPort": 0,
+        "allowProxy": false
     },
     "production": false,
     "compress": false,
