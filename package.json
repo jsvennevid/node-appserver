@@ -5,7 +5,7 @@
     "dependencies": {
         "underscore": "== 1.4.4",
         "connect": ">= 2.3.3",
-        "connect-redis": ">= 1.4.0",
+        "connect-redis": "== 1.4.7",
         "cookie": ">= 0.0.3",
         "cookies": ">= 0.3.0",
         "express": "== 2.5.10",
