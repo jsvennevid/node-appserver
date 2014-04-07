@@ -1,6 +1,6 @@
 {
     "name": "appserver",
-    "version": "0.2.27",
+    "version": "0.2.28",
 
     "dependencies": {
         "underscore": "== 1.4.4",
@@ -15,6 +15,6 @@
         "sqwish": ">= 0.2.1",
         "memcached": ">= 0.2.2",
         "config": ">= 0.4.25",
-        "streaming.io": "git+https://github.com/jsvennevid/streaming.io.git#v0.2.1"
+        "streaming.io": "git+https://github.com/jsvennevid/streaming.io.git#v0.2.2"
     }
 }
