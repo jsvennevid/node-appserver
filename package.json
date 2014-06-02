@@ -1,6 +1,6 @@
 {
     "name": "appserver",
-    "version": "0.2.28",
+    "version": "0.2.29",
 
     "dependencies": {
         "underscore": "== 1.4.4",
@@ -9,7 +9,7 @@
         "cookie": ">= 0.0.3",
         "cookies": ">= 0.3.0",
         "express": "== 3.4.8",
-        "socket.io": ">= 0.9.6",
+        "socket.io": "== 0.9.16",
         "glob": ">= 3.1.14",
         "uglify-js": ">= 2.2.5",
         "sqwish": ">= 0.2.1",
