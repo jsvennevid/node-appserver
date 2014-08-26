@@ -1,6 +1,8 @@
 var config = require('config');
 config.setModuleDefaults('appserver', {
     "web": {
+        "host": undefined,
+        "backlog": undefined,
         "port": 8888,
         "wsPort": 0,
         "allowProxy": false
