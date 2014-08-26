@@ -9,6 +9,7 @@ config.setModuleDefaults('appserver', {
     },
     "production": false,
     "compress": false,
+    "bundlecache": undefined,
     "preload": false,
     "logformat": "default",
     "session": {
