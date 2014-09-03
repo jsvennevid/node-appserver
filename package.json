@@ -1,6 +1,6 @@
 {
     "name": "appserver",
-    "version": "0.3.6",
+    "version": "0.3.7",
 
     "dependencies": {
         "underscore": "== 1.4.4",
@@ -17,6 +17,6 @@
         "config": "== 1.0.2",
         "debug": "== 2.0.0",
         "async": "== 0.9.0",
-        "streaming.io": "git+https://github.com/jsvennevid/streaming.io.git#v0.3.3"
+        "streaming.io": "git+https://github.com/jsvennevid/streaming.io.git#v0.3.4"
     }
 }
