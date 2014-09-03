@@ -22,26 +22,22 @@ config.setModuleDefaults('appserver', {
         "timeout": 48 * (60 * 60) * 1000,
 
         "redis": {
-            "host": "localhost",
-            "port": 6379
+            "host": "localhost:6379"
         }
     },
     "streaming": {
         "registry": {
             "type": "local",
-            "amqp": {
-                "url": ""
-            },
             "redis": {
-                "host": "localhost",
-                "port": 6379,
+                "host": "localhost:6379",
                 "prefix": "registry:"
             }
         },
     },
     "memcached": {
         "host": ""
-    }
+    },
+    "aws": undefined
 });
 
 module.exports = require('./lib/server');
