@@ -1,5 +1,5 @@
 var config = require('config');
-config.setModuleDefaults('appserver', {
+config.util.setModuleDefaults('appserver', {
     "web": {
         "host": undefined,
         "backlog": undefined,
@@ -35,6 +35,9 @@ config.setModuleDefaults('appserver', {
         },
     },
     "memcached": {
+        "host": ""
+    },
+    "cdn": {
         "host": ""
     },
     "aws": undefined
