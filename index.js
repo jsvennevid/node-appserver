@@ -5,7 +5,13 @@ config.util.setModuleDefaults('appserver', {
         "backlog": undefined,
         "port": 8888,
         "wsPort": 0,
-        "allowProxy": false
+
+        "proxy": {
+            "allow": false,
+            "forceSSL": false,
+            "address": "x-forwarded-for",
+            "protocol": "x-forwarded-proto",
+        }
     },
     "production": false,
     "compress": false,
