@@ -1,6 +1,6 @@
 {
     "name": "appserver",
-    "version": "0.3.17",
+    "version": "0.3.18",
 
     "dependencies": {
         "underscore": "== 1.4.4",
@@ -18,6 +18,6 @@
         "debug": "== 2.0.0",
         "async": "== 0.9.0",
         "aws-sdk": "== 2.0.15",
-        "streaming.io": "git+https://github.com/jsvennevid/streaming.io.git#v0.3.7"
+        "streaming.io": "git+https://github.com/jsvennevid/streaming.io.git#v0.3.8"
     }
 }
