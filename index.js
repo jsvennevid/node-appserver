@@ -23,6 +23,7 @@ config.util.setModuleDefaults('appserver', {
 
         "key": "connect.sid",
         "client_key": "connect.cid",
+        "allow_query": true,
         "secret": "SECRET",
         "secure": false,
         "timeout": 48 * (60 * 60) * 1000,
