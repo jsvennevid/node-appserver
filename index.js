@@ -47,7 +47,8 @@ config.util.setModuleDefaults('appserver', {
     "cdn": {
         "host": ""
     },
-    "aws": undefined
+    "aws": undefined,
+    "appid": undefined
 });
 
 module.exports = require('./lib/server');

@@ -1,6 +1,6 @@
 {
     "name": "appserver",
-    "version": "0.5.1",
+    "version": "0.5.2",
 
     "dependencies": {
         "underscore": "== 1.4.4",
